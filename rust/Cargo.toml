@@ -1,0 +1,21 @@
+[package]
+name = "rust_bitcoin_address_generator"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+crate_type = ["cdylib", "staticlib"]
+name = "mobile"
+
+[dependencies]
+uniffi = { version = "0.25.3", features = [ "cli" ] }
+bitcoin = "0.31.1"
+bip39 = "2.0.0"
+secp256k1 = "0.28.2"
+bip32 = "0.5.1"
+serde = { version = "1.0.197", features = ["derive"] }
+serde_json = "1.0.114"
+hex = "0.4.3"
+sha2 = "0.10.8"
