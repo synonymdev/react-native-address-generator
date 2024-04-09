@@ -54,7 +54,7 @@ export async function getScriptHash({
 }: {
   address: string;
   network: TNetwork;
-}): Promise<Result<string[]>> {
+}): Promise<Result<string>> {
   const res = await AddressGenerator.getScriptHash(address, network);
   if (res[0] === 'error') {
     return err(res[1]);
