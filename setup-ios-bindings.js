@@ -18,6 +18,7 @@ const removeDirectories = () => {
 };
 
 const setupIosCommand = `
+  export IPHONEOS_DEPLOYMENT_TARGET=13.4
   sed -i '' 's/crate_type = .*/crate_type = ["cdylib", "staticlib"]/' Cargo.toml && \\
   cargo build --release && \\
   cargo run --bin uniffi-bindgen generate --library ./target/release/libmobile.dylib --language swift --out-dir ./bindings && \\
@@ -71,7 +72,7 @@ const postSetupIos = async () => {
   }
 
   const rustIos = path.resolve('rust', 'ios');
-  const frameworksDir = path.resolve('Frameworks');
+  const frameworksDir = path.resolve('ios', 'Frameworks');
 
   // Copy contents of rust/ios/ to Frameworks directory
   await fs.promises.cp(rustIos, frameworksDir, {

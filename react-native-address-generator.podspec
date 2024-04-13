@@ -3,6 +3,8 @@ require "json"
 package = JSON.parse(File.read(File.join(__dir__, "package.json")))
 folly_compiler_flags = '-DFOLLY_NO_CONFIG -DFOLLY_MOBILE=1 -DFOLLY_USE_LIBCPP=1 -Wno-comma -Wno-shorten-64-to-32'
 
+min_ios_version_supported = '13.4'
+
 Pod::Spec.new do |s|
   s.name         = "react-native-address-generator"
   s.version      = package["version"]
@@ -12,6 +14,7 @@ Pod::Spec.new do |s|
   s.authors      = package["author"]
 
   s.platforms    = { :ios => min_ios_version_supported }
+  s.ios.deployment_target = min_ios_version_supported
   s.source       = { :git => "https://github.com/coreyphillips/react-native-address-generator.git", :tag => "#{s.version}" }
 
   s.source_files = "ios/**/*.{h,m,mm,swift}"
