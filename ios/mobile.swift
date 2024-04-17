@@ -357,13 +357,14 @@ fileprivate struct FfiConverterSequenceString: FfiConverterRustBuffer {
     }
 }
 
-public func getAddress(mnemonic: String, derivationPath: String, networkType: String)  -> [String] {
+public func getAddress(mnemonic: String, derivationPath: String, networkType: String, bip39Passphrase: String)  -> [String] {
     return try!  FfiConverterSequenceString.lift(
         try! rustCall() {
     uniffi_mobile_fn_func_get_address(
         FfiConverterString.lower(mnemonic),
         FfiConverterString.lower(derivationPath),
-        FfiConverterString.lower(networkType),$0)
+        FfiConverterString.lower(networkType),
+        FfiConverterString.lower(bip39Passphrase),$0)
 }
     )
 }
@@ -405,7 +406,7 @@ private var initializationResult: InitializationResult {
     if bindings_contract_version != scaffolding_contract_version {
         return InitializationResult.contractVersionMismatch
     }
-    if (uniffi_mobile_checksum_func_get_address() != 16419) {
+    if (uniffi_mobile_checksum_func_get_address() != 31286) {
         return InitializationResult.apiChecksumMismatch
     }
     if (uniffi_mobile_checksum_func_get_private_key() != 26216) {

@@ -63,7 +63,7 @@ typedef struct RustCallStatus {
 typedef void (*UniFfiRustFutureContinuation)(void * _Nonnull, int8_t);
 
 // Scaffolding functions
-RustBuffer uniffi_mobile_fn_func_get_address(RustBuffer mnemonic, RustBuffer derivation_path, RustBuffer network_type, RustCallStatus *_Nonnull out_status
+RustBuffer uniffi_mobile_fn_func_get_address(RustBuffer mnemonic, RustBuffer derivation_path, RustBuffer network_type, RustBuffer bip39_passphrase, RustCallStatus *_Nonnull out_status
 );
 RustBuffer uniffi_mobile_fn_func_get_private_key(RustBuffer mnemonic, RustBuffer derivation_path, RustBuffer network_type, RustBuffer bip39_passphrase, RustCallStatus *_Nonnull out_status
 );

@@ -4,9 +4,9 @@ import Foundation
 class AddressGenerator: NSObject {
 
   @objc(getAddress:derivationPath:networkType:withResolver:withRejecter:)
-  func getAddress(_ mnemonic: String, derivationPath: String, networkType: String, resolve: RCTPromiseResolveBlock, reject: RCTPromiseRejectBlock) {
+  func getAddress(_ mnemonic: String, derivationPath: String, networkType: String, bip39Passphrase: String, resolve: RCTPromiseResolveBlock, reject: RCTPromiseRejectBlock) {
       do {
-          let result = try react_native_address_generator.getAddress(mnemonic: mnemonic, derivationPath: derivationPath, networkType: networkType)
+          let result = try react_native_address_generator.getAddress(mnemonic: mnemonic, derivationPath: derivationPath, networkType: networkType, bip39Passphrase: bip39Passphrase)
           resolve(result)
       } catch {
           reject("GetAddressError", "Failed to get address", error)

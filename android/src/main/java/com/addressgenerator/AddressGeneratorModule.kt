@@ -21,9 +21,9 @@ class AddressGeneratorModule(reactContext: ReactApplicationContext) :
   }
 
   @ReactMethod
-  fun getAddress(mnemonic: String, derivationPath: String, networkType: String, promise: Promise) {
+  fun getAddress(mnemonic: String, derivationPath: String, networkType: String, bip39_passphrase: String, promise: Promise) {
     try {
-      val result = getAddress(mnemonic, derivationPath, networkType)
+      val result = getAddress(mnemonic, derivationPath, networkType, bip39_passphrase)
       val array = Arguments.createArray().apply {
         result.forEach { pushString(it) }
       }

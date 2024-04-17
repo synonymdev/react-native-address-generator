@@ -27,8 +27,9 @@ fn get_address(
     mnemonic: String,
     derivation_path: String,
     network_type: String,
+    bip39_passphrase: String,
 ) -> Vec<String> {
-    match generate_bitcoin_address_from_mnemonic(&mnemonic, &derivation_path, &network_type) {
+    match generate_bitcoin_address_from_mnemonic(&mnemonic, &derivation_path, &network_type, &bip39_passphrase) {
         Ok(response) => match serde_json::to_string(&response) {
             Ok(serialized) => create_response_vector(false, serialized),
             Err(_) => create_response_vector(true, "Error in serialization".to_string()),
@@ -84,6 +85,7 @@ fn generate_bitcoin_address_from_mnemonic(
     mnemonic_phrase: &str,
     derivation_path_str: &str,
     network_type: &str,
+    bip39_passphrase: &str,
 ) -> Result<GetAddressResponse, Box<dyn Error>> {
     let network = determine_network(network_type)?;
 
@@ -111,7 +113,7 @@ fn generate_bitcoin_address_from_mnemonic(
 
     // Parse the mnemonic phrase and derive the private key
     let mnemonic = Mnemonic::parse_in(Language::English, mnemonic_phrase)?;
-    let bip39_seed = mnemonic.to_seed("");
+    let bip39_seed = mnemonic.to_seed(bip39_passphrase);
     let derivation_path = derivation_path_str.parse::<DerivationPath>()?;
     let xprv = XPrv::derive_from_path(&bip39_seed, &derivation_path)?;
 

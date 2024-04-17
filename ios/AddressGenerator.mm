@@ -6,6 +6,7 @@
 RCT_EXTERN_METHOD(getAddress:(NSString *)mnemonic
                   derivationPath:(NSString *)derivationPath
                   networkType:(NSString *)networkType
+                  bip39Passphrase:(NSString *)bip39Passphrase
                   withResolver:(RCTPromiseResolveBlock)resolve
                   withRejecter:(RCTPromiseRejectBlock)reject)
 

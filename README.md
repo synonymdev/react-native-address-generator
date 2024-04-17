@@ -15,6 +15,7 @@ import { getAddress, getScriptHash, getPrivateKey } from 'react-native-address-g
 
 const mnemonic =
   'lazy rally chat way pet outside flame cup oval absurd innocent balcony';
+const passphrase = 'passphrase';
 const path = "m/84'/1'/0'/0/0";
 const network = 'testnet';
 
@@ -22,6 +23,7 @@ const getAddressRes = await getAddress({
   mnemonic,
   path,
   network,
+  passphrase,
 });
 if (getAddressRes.isErr()) {
   console.log(getAddressRes.error.message);
@@ -45,6 +47,7 @@ const getPrivateKeyRes = await getPrivateKey({
   mnemonic,
   path,
   network,
+  passphrase,
 });
 if (getPrivateKeyRes.isErr()) {
   console.log(getPrivateKeyRes.error.message);

@@ -30,10 +30,12 @@ export async function getAddress({
   mnemonic,
   path,
   network,
+  passphrase = '',
 }: {
   mnemonic: string;
   path: string;
   network: TNetwork;
+  passphrase?: string;
 }): Promise<
   Result<{
     address: string;
@@ -41,7 +43,12 @@ export async function getAddress({
     publicKey: string;
   }>
 > {
-  const res = await AddressGenerator.getAddress(mnemonic, path, network);
+  const res = await AddressGenerator.getAddress(
+    mnemonic,
+    path,
+    network,
+    passphrase
+  );
   if (res[0] === 'error') {
     return err(res[1]);
   }
