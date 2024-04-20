@@ -3,7 +3,7 @@ import Foundation
 @objc(AddressGenerator)
 class AddressGenerator: NSObject {
 
-  @objc(getAddress:derivationPath:networkType:withResolver:withRejecter:)
+  @objc(getAddress:derivationPath:networkType:bip39Passphrase:withResolver:withRejecter:)
   func getAddress(_ mnemonic: String, derivationPath: String, networkType: String, bip39Passphrase: String, resolve: RCTPromiseResolveBlock, reject: RCTPromiseRejectBlock) {
       do {
           let result = try react_native_address_generator.getAddress(mnemonic: mnemonic, derivationPath: derivationPath, networkType: networkType, bip39Passphrase: bip39Passphrase)

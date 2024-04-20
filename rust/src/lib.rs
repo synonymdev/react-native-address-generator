@@ -10,8 +10,6 @@ use bip32::{XPrv, DerivationPath};
 use secp256k1::{Secp256k1, PublicKey};
 use bitcoin::key::UntweakedPublicKey;
 use serde::{Serialize, Deserialize};
-use serde_json;
-use hex;
 use std::{error::Error, str::FromStr};
 use sha2::{Digest, Sha256};
 
