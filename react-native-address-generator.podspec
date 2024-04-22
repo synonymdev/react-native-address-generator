@@ -21,6 +21,10 @@ Pod::Spec.new do |s|
   s.ios.source_files = "ios/**/*.{h,m,mm,swift}"
   s.ios.vendored_frameworks = "ios/Frameworks/Mobile.xcframework"
 
+  s.pod_target_xcconfig = {
+      "EXCLUDED_ARCHS[sdk=iphonesimulator*]" => "x86_64"
+  }
+
   # Use install_modules_dependencies helper to install the dependencies if React Native version >=0.71.0.
   # See https://github.com/facebook/react-native/blob/febf6b7f33fdb4904669f99d795eba4c0f95d7bf/scripts/cocoapods/new_architecture.rb#L79.
   if respond_to?(:install_modules_dependencies, true)
@@ -34,8 +38,7 @@ Pod::Spec.new do |s|
     s.pod_target_xcconfig    = {
         "HEADER_SEARCH_PATHS" => "\"$(PODS_ROOT)/boost\"",
         "OTHER_CPLUSPLUSFLAGS" => "-DFOLLY_NO_CONFIG -DFOLLY_MOBILE=1 -DFOLLY_USE_LIBCPP=1",
-        "CLANG_CXX_LANGUAGE_STANDARD" => "c++17",
-        "EXCLUDED_ARCHS[sdk=iphonesimulator*]" => "x86_64"
+        "CLANG_CXX_LANGUAGE_STANDARD" => "c++17"
     }
     s.dependency "React-Codegen"
     s.dependency "RCT-Folly"
