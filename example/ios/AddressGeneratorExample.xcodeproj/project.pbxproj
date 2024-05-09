@@ -11,9 +11,9 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		3E1B0D2831C05F0964B5A58E /* libPods-AddressGeneratorExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A6A16BB6CD6626F9CB8AA49 /* libPods-AddressGeneratorExample.a */; };
+		29A22891067202E95DE9B883 /* libPods-AddressGeneratorExample-AddressGeneratorExampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EF9F6890A5A94BE0E97B98F3 /* libPods-AddressGeneratorExample-AddressGeneratorExampleTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		D3F9A74B24D36E462E0846A2 /* libPods-AddressGeneratorExample-AddressGeneratorExampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EAC7687E772475DFD64C4CCB /* libPods-AddressGeneratorExample-AddressGeneratorExampleTests.a */; };
+		D03A38D9AD51B3AF7812A69E /* libPods-AddressGeneratorExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 71495B69D474ADABA8BD780B /* libPods-AddressGeneratorExample.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,20 +30,20 @@
 		00E356EE1AD99517003FC87E /* AddressGeneratorExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AddressGeneratorExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* AddressGeneratorExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddressGeneratorExampleTests.m; sourceTree = "<group>"; };
+		08D60727750CD09461567373 /* Pods-AddressGeneratorExample-AddressGeneratorExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AddressGeneratorExample-AddressGeneratorExampleTests.debug.xcconfig"; path = "Target Support Files/Pods-AddressGeneratorExample-AddressGeneratorExampleTests/Pods-AddressGeneratorExample-AddressGeneratorExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* AddressGeneratorExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AddressGeneratorExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = AddressGeneratorExample/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = AddressGeneratorExample/AppDelegate.mm; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = AddressGeneratorExample/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = AddressGeneratorExample/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = AddressGeneratorExample/main.m; sourceTree = "<group>"; };
-		2A6A16BB6CD6626F9CB8AA49 /* libPods-AddressGeneratorExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AddressGeneratorExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		65E8F876FE149DD22594B394 /* Pods-AddressGeneratorExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AddressGeneratorExample.release.xcconfig"; path = "Target Support Files/Pods-AddressGeneratorExample/Pods-AddressGeneratorExample.release.xcconfig"; sourceTree = "<group>"; };
+		381021C37AF0BDC902836631 /* Pods-AddressGeneratorExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AddressGeneratorExample.release.xcconfig"; path = "Target Support Files/Pods-AddressGeneratorExample/Pods-AddressGeneratorExample.release.xcconfig"; sourceTree = "<group>"; };
+		71495B69D474ADABA8BD780B /* libPods-AddressGeneratorExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AddressGeneratorExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = AddressGeneratorExample/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		BDEE81A028D9CAED0A24837E /* Pods-AddressGeneratorExample-AddressGeneratorExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AddressGeneratorExample-AddressGeneratorExampleTests.debug.xcconfig"; path = "Target Support Files/Pods-AddressGeneratorExample-AddressGeneratorExampleTests/Pods-AddressGeneratorExample-AddressGeneratorExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
-		D8BC03138BC20D40568567C4 /* Pods-AddressGeneratorExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AddressGeneratorExample.debug.xcconfig"; path = "Target Support Files/Pods-AddressGeneratorExample/Pods-AddressGeneratorExample.debug.xcconfig"; sourceTree = "<group>"; };
-		EAC7687E772475DFD64C4CCB /* libPods-AddressGeneratorExample-AddressGeneratorExampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AddressGeneratorExample-AddressGeneratorExampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A75E5A66896D1FE7A992148B /* Pods-AddressGeneratorExample-AddressGeneratorExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AddressGeneratorExample-AddressGeneratorExampleTests.release.xcconfig"; path = "Target Support Files/Pods-AddressGeneratorExample-AddressGeneratorExampleTests/Pods-AddressGeneratorExample-AddressGeneratorExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		C6B431038FF42C0AF004C2CA /* Pods-AddressGeneratorExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AddressGeneratorExample.debug.xcconfig"; path = "Target Support Files/Pods-AddressGeneratorExample/Pods-AddressGeneratorExample.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		F0965852E7D13146C64AE021 /* Pods-AddressGeneratorExample-AddressGeneratorExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AddressGeneratorExample-AddressGeneratorExampleTests.release.xcconfig"; path = "Target Support Files/Pods-AddressGeneratorExample-AddressGeneratorExampleTests/Pods-AddressGeneratorExample-AddressGeneratorExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		EF9F6890A5A94BE0E97B98F3 /* libPods-AddressGeneratorExample-AddressGeneratorExampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AddressGeneratorExample-AddressGeneratorExampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3F9A74B24D36E462E0846A2 /* libPods-AddressGeneratorExample-AddressGeneratorExampleTests.a in Frameworks */,
+				29A22891067202E95DE9B883 /* libPods-AddressGeneratorExample-AddressGeneratorExampleTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E1B0D2831C05F0964B5A58E /* libPods-AddressGeneratorExample.a in Frameworks */,
+				D03A38D9AD51B3AF7812A69E /* libPods-AddressGeneratorExample.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,8 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				2A6A16BB6CD6626F9CB8AA49 /* libPods-AddressGeneratorExample.a */,
-				EAC7687E772475DFD64C4CCB /* libPods-AddressGeneratorExample-AddressGeneratorExampleTests.a */,
+				71495B69D474ADABA8BD780B /* libPods-AddressGeneratorExample.a */,
+				EF9F6890A5A94BE0E97B98F3 /* libPods-AddressGeneratorExample-AddressGeneratorExampleTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -140,10 +140,10 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D8BC03138BC20D40568567C4 /* Pods-AddressGeneratorExample.debug.xcconfig */,
-				65E8F876FE149DD22594B394 /* Pods-AddressGeneratorExample.release.xcconfig */,
-				BDEE81A028D9CAED0A24837E /* Pods-AddressGeneratorExample-AddressGeneratorExampleTests.debug.xcconfig */,
-				F0965852E7D13146C64AE021 /* Pods-AddressGeneratorExample-AddressGeneratorExampleTests.release.xcconfig */,
+				C6B431038FF42C0AF004C2CA /* Pods-AddressGeneratorExample.debug.xcconfig */,
+				381021C37AF0BDC902836631 /* Pods-AddressGeneratorExample.release.xcconfig */,
+				08D60727750CD09461567373 /* Pods-AddressGeneratorExample-AddressGeneratorExampleTests.debug.xcconfig */,
+				A75E5A66896D1FE7A992148B /* Pods-AddressGeneratorExample-AddressGeneratorExampleTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -155,12 +155,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "AddressGeneratorExampleTests" */;
 			buildPhases = (
-				35A0B5390EC29F406CE099DA /* [CP] Check Pods Manifest.lock */,
+				5A146B3D3F33BD83F20BF225 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				62DD9D00F900C4109631314D /* [CP] Embed Pods Frameworks */,
-				36F476DB55ACB819EB121D96 /* [CP] Copy Pods Resources */,
+				44A4B6CB70456FFCCB9684B3 /* [CP] Embed Pods Frameworks */,
+				81E6C1323DCDEA30DE2F42E7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -176,13 +176,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "AddressGeneratorExample" */;
 			buildPhases = (
-				D92C4992C955B1241F0578F9 /* [CP] Check Pods Manifest.lock */,
+				2E3B36898962A228A3E368CE /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				E7B825155C68D260FB4128F4 /* [CP] Embed Pods Frameworks */,
-				7A8CBDB94B1F722057937728 /* [CP] Copy Pods Resources */,
+				71A1CC934C6C0DC89C17EA1B /* [CP] Embed Pods Frameworks */,
+				A4721394572DEA218BBF0F09 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -265,80 +265,7 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
 		};
-		35A0B5390EC29F406CE099DA /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-AddressGeneratorExample-AddressGeneratorExampleTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		36F476DB55ACB819EB121D96 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AddressGeneratorExample-AddressGeneratorExampleTests/Pods-AddressGeneratorExample-AddressGeneratorExampleTests-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AddressGeneratorExample-AddressGeneratorExampleTests/Pods-AddressGeneratorExample-AddressGeneratorExampleTests-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AddressGeneratorExample-AddressGeneratorExampleTests/Pods-AddressGeneratorExample-AddressGeneratorExampleTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		62DD9D00F900C4109631314D /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AddressGeneratorExample-AddressGeneratorExampleTests/Pods-AddressGeneratorExample-AddressGeneratorExampleTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AddressGeneratorExample-AddressGeneratorExampleTests/Pods-AddressGeneratorExample-AddressGeneratorExampleTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AddressGeneratorExample-AddressGeneratorExampleTests/Pods-AddressGeneratorExample-AddressGeneratorExampleTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		7A8CBDB94B1F722057937728 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AddressGeneratorExample/Pods-AddressGeneratorExample-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AddressGeneratorExample/Pods-AddressGeneratorExample-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AddressGeneratorExample/Pods-AddressGeneratorExample-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D92C4992C955B1241F0578F9 /* [CP] Check Pods Manifest.lock */ = {
+		2E3B36898962A228A3E368CE /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -360,7 +287,46 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E7B825155C68D260FB4128F4 /* [CP] Embed Pods Frameworks */ = {
+		44A4B6CB70456FFCCB9684B3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AddressGeneratorExample-AddressGeneratorExampleTests/Pods-AddressGeneratorExample-AddressGeneratorExampleTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AddressGeneratorExample-AddressGeneratorExampleTests/Pods-AddressGeneratorExample-AddressGeneratorExampleTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AddressGeneratorExample-AddressGeneratorExampleTests/Pods-AddressGeneratorExample-AddressGeneratorExampleTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A146B3D3F33BD83F20BF225 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AddressGeneratorExample-AddressGeneratorExampleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		71A1CC934C6C0DC89C17EA1B /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -375,6 +341,40 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AddressGeneratorExample/Pods-AddressGeneratorExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81E6C1323DCDEA30DE2F42E7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AddressGeneratorExample-AddressGeneratorExampleTests/Pods-AddressGeneratorExample-AddressGeneratorExampleTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AddressGeneratorExample-AddressGeneratorExampleTests/Pods-AddressGeneratorExample-AddressGeneratorExampleTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AddressGeneratorExample-AddressGeneratorExampleTests/Pods-AddressGeneratorExample-AddressGeneratorExampleTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4721394572DEA218BBF0F09 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AddressGeneratorExample/Pods-AddressGeneratorExample-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AddressGeneratorExample/Pods-AddressGeneratorExample-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AddressGeneratorExample/Pods-AddressGeneratorExample-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -410,7 +410,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BDEE81A028D9CAED0A24837E /* Pods-AddressGeneratorExample-AddressGeneratorExampleTests.debug.xcconfig */;
+			baseConfigurationReference = 08D60727750CD09461567373 /* Pods-AddressGeneratorExample-AddressGeneratorExampleTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -437,7 +437,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F0965852E7D13146C64AE021 /* Pods-AddressGeneratorExample-AddressGeneratorExampleTests.release.xcconfig */;
+			baseConfigurationReference = A75E5A66896D1FE7A992148B /* Pods-AddressGeneratorExample-AddressGeneratorExampleTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -461,7 +461,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D8BC03138BC20D40568567C4 /* Pods-AddressGeneratorExample.debug.xcconfig */;
+			baseConfigurationReference = C6B431038FF42C0AF004C2CA /* Pods-AddressGeneratorExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -488,7 +488,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 65E8F876FE149DD22594B394 /* Pods-AddressGeneratorExample.release.xcconfig */;
+			baseConfigurationReference = 381021C37AF0BDC902836631 /* Pods-AddressGeneratorExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
