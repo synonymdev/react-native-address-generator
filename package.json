@@ -26,7 +26,6 @@
     "!**/.*"
   ],
   "scripts": {
-    "example": "yarn workspace react-native-address-generator-example",
     "test": "jest",
     "typecheck": "tsc --noEmit",
     "lint": "eslint \"**/*.{js,ts,tsx}\" --fix",
@@ -45,14 +44,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/coreyphillips/react-native-address-generator.git"
+    "url": "git+https://github.com/synonymdev/react-native-address-generator.git"
   },
-  "author": "coreyphillips (https://github.com/coreyphillips)",
+  "author": "synonymdev (https://github.com/synonymdev)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/coreyphillips/react-native-address-generator/issues"
+    "url": "https://github.com/synonymdev/react-native-address-generator/issues"
   },
-  "homepage": "https://github.com/coreyphillips/react-native-address-generator#readme",
+  "homepage": "https://github.com/synonymdev/react-native-address-generator#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
